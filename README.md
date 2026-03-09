@@ -1,10 +1,8 @@
-# DAC
- INTERFACING DAC WITH 8086 KIT AND GENERATING SAWTOOTH AND SQUARE WAVEFORMS
+## DAC
+ INTERFACING DAC WITH 8086 KIT AND GENERATING SQUARE AND SAWTOOTH WAVEFORMS
 
 ## AIM
-To write an assembly language program in 8086 to generate Sawtooth and Square waveforms using DAC.
-
----
+To write an assembly language program in 8086 to generate square and Sawtooth waveforms using DAC.
 
 ## APPARATUS REQUIRED
 
@@ -14,7 +12,7 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 | 2     | Power Supply      | +5 V DC, +12 V DC | 1      |
 | 3     | DAC Interface board | -              | 1        |
 
----
+
 
 ## ALGORITHM
 
@@ -42,10 +40,10 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 
 ## PROGRAMS
 
-# 8086 Assembly Programs – DAC Interfacing
+### 8086 Assembly Programs – DAC Interfacing
 
 ## Program: Square Wave
-
+## Assembly Program  
 | Memory Location | Program     | Comments                          |
 |-----------------|-------------|-----------------------------------|
 | 1000            | MOV AL,00H  | Load 00H in Accumulator           |
@@ -76,28 +74,30 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 | `1007`          | `JNC LOOP`           | Jump if no carry (continue loop) |
 | `1009`          | `JMP START`          | Go to starting location         |
 
----
+
 
 ## Tabulation
 
 | Waveform  | Amplitude | Time period | 
 |-----------|-----------|-------------|
-| Sawtooth  |           |             | 
-| Square    |           |             |
----
-
-## Model Graph
-
-*(Insert graph/diagram here if available)*
+| Square    |  5V       |     2.5ms   | 
+| Sawtooth  |   5V      |     2.5ms   |
 
 
-
-## OUTPUT IMAGE OF DAC(SAWTOOTH WAVE FROM DSO AND SQUARE WAVE FROM DSO)
+## MODEL GRAPH
 
 
 
 
-## Result
+
+## OUTPUT OF DAC
+###### SAWTOOTH WAVEFORM  
+ <img width="531" height="299" alt="image" src="https://github.com/user-attachments/assets/56713a9e-c93f-4d91-876b-77f9014304bf" />
+
+###### SQUARE WAVEFORM  
+ <img width="533" height="357" alt="image" src="https://github.com/user-attachments/assets/a78e67ca-c3e1-4cba-91cf-efbde40456f2" />
+
+## RESULT
 
 Thus, the **DAC was interfaced with 8086** and different **waveforms** were successfully generated.
 
