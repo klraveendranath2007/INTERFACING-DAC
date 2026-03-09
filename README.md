@@ -1,10 +1,9 @@
-## DAC
- INTERFACING DAC WITH 8086 KIT AND GENERATING SQUARE AND SAWTOOTH WAVEFORMS
+## INTERFACING DAC WITH 8086 KIT AND GENERATING SQUARE AND SAWTOOTH WAVEFORMS
 
-## AIM
+### AIM
 To write an assembly language program in 8086 to generate square and Sawtooth waveforms using DAC.
 
-## APPARATUS REQUIRED
+### APPARATUS REQUIRED
 
 | S. No | Item              | Specification   | Quantity |
 |-------|------------------|-----------------|----------|
@@ -14,7 +13,7 @@ To write an assembly language program in 8086 to generate square and Sawtooth wa
 
 
 
-## ALGORITHM
+### ALGORITHM
 
 ### Measurement of Analog Voltage
 1. Send the digital value to DAC.  
@@ -38,7 +37,7 @@ To write an assembly language program in 8086 to generate square and Sawtooth wa
 
 ---
 
-## PROGRAMS
+### PROGRAMS
 
 ### 8086 Assembly Programs – DAC Interfacing
 
@@ -62,7 +61,7 @@ To write an assembly language program in 8086 to generate square and Sawtooth wa
 | 1108            |   RET |   RETURN TO MAIN PROGRAM      |
 
 
-# Program: Sawtooth wave
+## Program: Sawtooth wave
 
 ## Assembly Program
 
@@ -84,20 +83,22 @@ To write an assembly language program in 8086 to generate square and Sawtooth wa
 | Sawtooth  |   5V      |     2.5ms   |
 
 
-## MODEL GRAPH
+### MODEL GRAPH
+###### SAWTOOTH WAVEFORM   
+<img width="503" height="358" alt="image" src="https://github.com/user-attachments/assets/afaa8723-44f4-40d1-b942-21c12acec946" />
+
+###### SQUARE WAVEFORM   
+<img width="499" height="360" alt="image" src="https://github.com/user-attachments/assets/e70c766b-8556-4109-9155-c2708b91ac61" />
 
 
-
-
-
-## OUTPUT OF DAC
+### OUTPUT OF DAC USING DSO
 ###### SAWTOOTH WAVEFORM  
  <img width="531" height="299" alt="image" src="https://github.com/user-attachments/assets/56713a9e-c93f-4d91-876b-77f9014304bf" />
 
 ###### SQUARE WAVEFORM  
  <img width="533" height="357" alt="image" src="https://github.com/user-attachments/assets/a78e67ca-c3e1-4cba-91cf-efbde40456f2" />
 
-## RESULT
+### RESULT
 
 Thus, the **DAC was interfaced with 8086** and different **waveforms** were successfully generated.
 
